@@ -32,6 +32,7 @@ def findF(E,Re,D):
 ## Densities and Viscosities
 Dens_Ox = PropsSI('D','T', OxTemp, 'P' , InjectionP, Oxidizer)
 Dens_Fuel = PropsSI('D', 'T' , FuelTemp , 'P' , InjectionP, Fuel)
+print(Dens_Fuel)
 
 Visc_Fuel = PropsSI('V' , 'T' , FuelTemp , 'P' , InjectionP , Fuel)
 
